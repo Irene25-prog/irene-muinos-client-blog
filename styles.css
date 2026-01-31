@@ -1,74 +1,101 @@
+body {
 
+  background: #D1C7B7 url(images/background-beige-watercolor-with-color-stains-simple-style.jpg)
 
-h1{
+}
+
+h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: 75px;
-  text-align:center;
+  text-align: center;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-h2{
+h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: 25px;
-  text-align:center; 
+  text-align: center;
   padding-top: 0px;
   margin-top: 0px;
 }
 
-h3{
+h3 {
 
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: 50px;
-  text-align:center; 
+  text-align: center;
   padding-top: 0px;
   margin-top: 0px;
 
 }
 
-.container{
-  nav li{
-    display:inline-block;
-  }
+ul {
+
+  text-align: center;
+
 }
-    
+
+nav li {
+  display: inline-block;
+  margin: 30px;
+
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #636B2F;
+}
+main{
+
+  text-align: center;
+}
+#gallery-image {
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+
+}
+
+p {
+  font-size: 20px;
+  justify-content: center;
+  margin-left: 175px;
+  margin-right: 175px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-around;
+  gap: 0px;
+
+}
 
 
 
+.button {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #636B2F;
+  text-decoration: none;
+  padding: 50px;
+  text-align: center;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a{
-    display: inline-block;
-    font-family: Roboto, sans-serif;
-    color: #ffffff;
-    background-color: #636B2F;
-    text-decoration: none;
-    padding: 20px;
-
-
-
-
-
-
+footer {
+  text-align: center;
 }
